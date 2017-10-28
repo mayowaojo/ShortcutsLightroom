@@ -1,0 +1,376 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shortcut+ Lightroom</title>
+<link href="../css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="../css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery.mobile.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="library" data-theme="a">
+	<div data-role="header">
+      <a href="index.html" data-icon="my-home" data-iconpos="notext"  data-direction="reverse" class="ui-btn-right">Home</a>	  								
+      <h1>Library Module</h1>
+
+	</div>
+	<div data-role="content">
+    
+         <div class="content-secondary">
+     
+              <ul data-role="listview" >
+
+                <li data-icon="false">
+                <a href="general.html" data-transition="slideup" data-prefetch>
+                <div class="icons general"></div>
+                General</a>                
+                </li>              
+              
+                <li data-icon="false" data-theme="b">
+                <a class="active" href="library.html">
+                <div class="icons library_active"></div>
+                Library</a>                
+                </li>
+                
+                <li data-icon="false">
+                <a href="develop.html" data-transition="slidedown" data-prefetch>
+                <div class="icons develop"></div>
+                Develop</a>
+                 </li> 
+                
+                <li data-icon="false">
+                <a href="map.html" data-transition="slidedown" data-prefetch>
+                <div class="icons map"></div>
+                Map</a>
+                </li>
+                
+                <li data-icon="false">
+                <a href="book.html" data-transition="slidedown" data-prefetch>
+                <div class="icons book"></div>
+                Book</a>
+                
+                </li>
+                <li data-icon="false">
+               <a href="slideshow.html" data-transition="slidedown" data-prefetch>
+                <div class="icons slideshow"></div>
+               Slideshow</a>
+                </li>
+               
+                <li data-icon="false" >
+                <a href="print.html" data-transition="slidedown" data-prefetch>
+                <div class="icons print"></div>
+                Print</a>
+                
+                </li>
+                <li data-icon="false" >
+                <a href="web.html" data-transition="slidedown" data-prefetch>
+                <div class="icons web"></div>
+                Web</a>
+                </li>
+              </ul>
+                
+                    
+            </div>
+
+
+    	<div class="content-primary"> 
+
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Library Shortcuts</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Cmd + Z</h3>
+                            <p>Undo</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Y</h3>
+                            <p>Redo</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Opt + K</h3>
+                            <p>Enable Painting</p>
+                        </li>
+                        <li>
+                            <h3>F2</h3>
+                            <p>Rename Photo</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + [</h3>
+                            <p>Rotate left</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + ]</h3>
+                            <p>Rotate right</p>
+                        </li>
+                        <li>
+                            <h3>Backspace</h3>
+                            <p>Remove from Library</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Left Arrow</h3>
+                            <p>Previous selected photo</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Right Arrow</h3>
+                            <p>Next selected photo</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + L</h3>
+                            <p>Enable/Disable Library Filters</p>
+                        </li>
+                        <li>
+                            <h3>\</h3>
+                            <p>Show Filter Bar</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Opt + R</h3>
+                            <p>Refine Photos</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + F</h3>
+                            <p>Select Text Filter</p>
+                        </li>
+                        <li>
+                            <h3> + at the beginning of word</h3>
+                            <p>Starts with Text Filter</p>
+                        </li>
+                        <li>
+                            <h3> + at the end of word</h3>
+                            <p>Ends with Text Filter</p>
+                        </li>                    </ul>
+                    
+              </div>
+
+
+              
+              <div data-role="collapsible" data-theme="c" data-content-theme="a">
+                <h3>Rating Shortcuts</h3>
+                	<ul data-role="listview">
+                    	<li>
+                            <h3>1-5</h3>
+                            <p>Set ratings</p>
+                        </li>
+                        <li>
+                            <h3>Shift 1-5 (or Caps Lock)</h3>
+                            <p>Set ratings and move to next photo</p>
+                        </li>
+                        <li>
+                            <h3>6-9</h3>
+                            <p>Set color labels</p>
+                        </li>
+                        <li>
+                            <h3>Shift 6-9 (or Caps Lock)</h3>
+                            <p>Set color labels and move to next photo</p>
+                        </li>
+                        <li>
+                            <h3>0</h3>
+                            <p>Reset rating to none</p>
+                        </li>
+                        <li>
+                            <h3>[</h3>
+                            <p>Decrease the rating</p>
+                        </li>
+                        <li>
+                            <h3>]</h3>
+                            <p>Increase the rating</p>
+                        </li>
+            
+                    </ul>
+              </div>
+              
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Flagging Shortcuts</h3>
+                	<ul data-role="listview">
+                        <li>
+                            <h3>P</h3>
+                            <p>Set Pick Flag</p>
+                        </li>
+                        <li>
+                            <h3>U</h3>
+                            <p>Set as Unflagged</p>
+                        </li>
+                        <li>
+                            <h3>X</h3>
+                            <p>Set Reject Flag</p>
+                        </li>
+                        <li>
+                			<h3>`</h3>
+                			<p>Toggle Flagged Status</p>
+                		</li>
+                		<li>
+                			<h3>Cmd + Up Arrow</h3>
+                			<p>Increase Flag Status</p>
+                		</li>
+                		<li>
+                			<h3>Cmd + Down Arrow</h3>
+                			<p>Decrease Flag Status</p>
+                		</li>
+                        <li>
+                            <h3>Shift + P (or Caps Lock)</h3>
+                            <p>Set as Flagged and advance to next photo</p>
+                        </li>
+                        <li>
+                            <h3>Shift + X (or Caps Lock)</h3>
+                            <p>Set as Unflagged and advance to next photo</p>
+                        </li>
+                        <li>
+                            <h3>Shift + U (or Caps Lock)</h3>
+                            <p>Set as Rejected and advance to next photo</p>
+                        </li>
+
+                	</ul>
+                    
+              </div>
+           
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Target Collection Shortcuts</h3>
+                	<ul data-role="listview">
+                		<li>
+                			<h3>B</h3>
+                			<p>Add to Target Collection</p>
+                		</li>
+                        <li>
+                            <h3>Shift + B</h3>
+                            <p>Add to Target Collection and move to next photo</p>
+                        </li>
+                		<li>
+                			<h3>Cmd + B</h3>
+                			<p>Show Target Collection</p>
+                		</li>
+                        <li>
+                            <h3>Cmd + Opt + B</h3>
+                            <p>Save Quick Collection</p>
+                        </li>
+                		<li>
+                			<h3>Cmd + Shift + B</h3>
+                			<p>Clear Quick Collection</p>
+                		</li>
+                        <li>
+                            <h3>Cmd + Opt + Shift + B</h3>
+                            <p>Set Collection as Target</p>
+                        </li>
+                	</ul>
+                    
+              </div>
+
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Folders/Collections</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Cmd + Shift + N</h3>
+                            <p>New Collection</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + N</h3>
+                            <p>New Folder</p>
+                        </li>
+                        <li>
+                            <h3>Opt + Click on folder disclosure triangle</h3>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3>Cmd + R</h3>
+                            <p>Show in Explorer</p>
+                        </li>
+                    </ul>
+                    
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Stacking</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Cmd + G</h3>
+                            <p>Stack photos</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Shift + G</h3>
+                            <p>Unstack photos</p>
+                        </li>
+                        <li>
+                            <h3>S</h3>
+                            <p>Collapse/Expand Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + S</h3>
+                            <p>Move to Top of Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + [</h3>
+                            <p>Move Up in Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + ]</h3>
+                            <p>Move Down in Stack</p>
+                        </li>
+                    </ul>
+                    
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Metadata</h3>
+                    <ul data-role="listview">                  
+                        <li>
+                            <h3>Cmd + Opt + Shift + C</h3>
+                            <p>Copy Metadata</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Opt + Shift + V</h3>
+                            <p>Paste Metadata</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Opt + Shift + A</h3>
+                            <p>Enable Metadata Auto Sync</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + S</h3>
+                            <p>Save Metadata to File</p>
+                        </li>                      
+                    </ul>
+                    
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Keywording</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Cmd + K</h3>
+                            <p>Go to Add Keywords</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Shift + K</h3>
+                            <p>Change Keywords</p>
+                        </li>
+                        <li>
+                            <h3>Cmd + Opt + Shift + K</h3>
+                            <p>Set Keyword Shortcut</p>
+                        </li>
+                        <li>
+                            <h3>Shift + K</h3>
+                            <p>Toggle Keyword Shortcut</p>
+                        </li>
+                        <li>
+                            <h3>Opt + O</h3>
+                            <p>Next Keyword</p>
+                        </li>
+                        <li>
+                            <h3>Opt + Shift + O</h3>
+                            <p>Previous Keyword Set</p>
+                        </li>
+                        <li>
+                            <h3>Opt + (Number Pad 1-9)</h3>
+                            <p>Apply Keyword</p>
+                        </li>
+                    </ul>
+                    
+              </div>
+
+         </div>
+	     
+        
+    
+	</div>    
+</div> 
+</body>
+</html>

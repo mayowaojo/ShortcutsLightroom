@@ -1,0 +1,415 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shortcut+ Lightroom</title>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="develop" data-theme="a">
+    <div data-role="header">
+      <a href="index.html#home" data-icon="my-home" data-iconpos="notext"  data-direction="reverse" class="ui-btn-right">Home</a>                        	  
+      <h1>Develop Module</h1>
+	</div>
+	<div data-role="content">
+
+        <div class="content-secondary">
+     
+              <ul data-role="listview" >
+
+                <li data-icon="false">
+                <a href="general.html" data-transition="slideup" >
+                <div class="icons general"></div>
+                General</a>                
+                </li>              
+              
+                <li data-icon="false" >
+                <a href="library.html" data-transition="slideup" >
+                <div class="icons library"></div>
+                Library</a>                
+                </li>
+                
+                <li data-icon="false" data-theme="b">
+                <a class="active" href="develop.html">
+                <div class="icons develop_active"></div>
+                Develop</a>
+                 </li> 
+                
+                <li data-icon="false">
+                <a href="map.html" data-transition="slidedown" >
+                <div class="icons map"></div>
+                Map</a>
+                </li>
+                
+                <li data-icon="false">
+                <a href="book.html" data-transition="slidedown" >
+                <div class="icons book"></div>
+                Book</a>
+                
+                </li>
+                <li data-icon="false">
+               <a href="slideshow.html" data-transition="slidedown" >
+                <div class="icons slideshow"></div>
+               Slideshow</a>
+                </li>
+               
+                <li data-icon="false" >
+                <a href="print.html" data-transition="slidedown" >
+                <div class="icons print"></div>
+                Print</a>
+                
+                </li>
+                <li data-icon="false" >
+                <a href="web.html" data-transition="slidedown" >
+                <div class="icons web"></div>
+                Web</a>
+                </li>
+              </ul>
+        </div>
+
+
+            
+            <div class="content-primary">
+              
+              <div data-role="collapsible" data-theme="c" data-content-theme="a">
+                <h3>Edit Shortcuts</h3>
+                	<ul data-role="listview">
+                		<li>
+                			<h3>Ctrl + U</h3>
+                			<p>Auto Tone</p>
+                		</li>
+                		<li>
+                			<h3>V</h3>
+                			<p>Convert to Black and White</p>
+                		</li>
+                		<li>
+                			<h3>Ctrl + Shift U</h3>
+                			<p>Auto White Balance</p>
+                		</li>
+                        <li>
+                            <h3>J</h3>
+                            <p>Show/Hide Clipping</p>
+                        </li>
+                        <li>
+                            <h3>S</h3>
+                            <p>Show/Hide Soft Proof</p>
+                        </li>
+                        <li>
+                            <h3>Shift + S</h3>
+                            <p>Destination Gamut Warning</p>
+                        </li>
+                        <li>
+                			<h3>Ctrl + N</h3>
+                			<p>New Snapshot</p>
+                		</li>
+                        <li>
+                            <h3>Ctrl + Shift + R</h3>
+                            <p>Reset All Settings</p>
+                        </li>
+                		<li>
+                			<h3>Ctrl + '</h3>
+                			<p>Create Virtual Copy</p>
+                		</li>
+                        <li>
+                            <h3>Ctrl + Shift + N</h3>
+                            <p>New Preset</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt+ N</h3>
+                            <p>New Preset Folder</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + E</h3>
+                            <p>Edit in Photoshop</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + E</h3>
+                            <p>Edit in Other Application</p>
+                        </li>                       
+
+
+                	</ul>
+              </div>
+              
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Copy Paste Sync</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Ctrl + Shift + C</h3>
+                            <p>Copy Develop Settings</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + V</h3>
+                            <p>Paste Develop Settings</p>
+                        </li>                    
+                        <li>
+                            <h3>Ctrl + Alt + V</h3>
+                            <p>Paste Settings from Previous</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + S</h3>
+                            <p>Sync Settings</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + S</h3>
+                            <p>Sync Settings - no dialog</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + A</h3>
+                            <p>Enable Develop Auto Sync</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + M</h3>
+                            <p>Match Total Exposures</p>
+                        </li>
+                    </ul>
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Before/After Previews</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>\</h3>
+                            <p>Toggle Before/After</p>
+                        </li>
+                        <li>
+                            <h3>Y</h3>
+                            <p>Left/Right</p>
+                        </li>
+                        <li>
+                            <h3>Alt + Y</h3>
+                            <p>Top/Bottom</p>
+                        </li>
+                        <li>
+                            <h3>Shift + Y</h3>
+                            <p>Split Screen</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Left Arrow</h3>
+                            <p>Copy After's Settings to Before</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Right Arrow</h3>
+                            <p>Copy Before's Settings to After</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Up Arrow</h3>
+                            <p>Swap Before and After Settings</p>
+                        </li>
+                    </ul>
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Sliders</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>.</h3>
+                            <p>Select next Basic panel slider</p>
+                        </li>
+                        <li>
+                            <h3>,</h3>
+                            <p>Select previous Basic panel slider</p>
+                        </li>
+                        <li>
+                            <h3>=</h3>
+                            <p>Increase slider value</p>
+                        </li>
+                        <li>
+                            <h3>-</h3>
+                            <p>Decrease slider value</p>
+                        </li>
+                        <li>
+                            <h3>Shift + =</h3>
+                            <p>Increase slider value by larger increment</p>
+                        </li>
+                        <li>
+                            <h3>Shift + -</h3>
+                            <p>Decrease slider value by smaller increment</p>
+                        </li>
+                        <li>
+                            <h3>Double-click on slider label</h3>
+                            <p>Reset Slider</p>
+                        </li>
+                        <li>
+                            <h3>Double-click on group name</h3>
+                            <p>Reset slider group</p>
+                        </li>
+                    </ul>
+              </div>       
+
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Mode Shortcuts</h3>
+                	<ul data-role="listview">
+                		<li>
+                			<h3>R</h3>
+                			<p>Enter Crop Mode</p>
+                		</li>
+                		<li>
+                			<h3>Q</h3>
+                			<p>Enter Sport Removal Mode</p>
+                		</li>
+                		<li>
+                			<h3>M</h3>
+                			<p>Enter Gradual Filter Mode</p>
+                		</li>
+                		<li>
+                			<h3>K</h3>
+                			<p>Enter Adjustment Brush Mode</p>
+                		</li>
+                	</ul>
+              </div>
+             
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Tool Shortcuts</h3>
+                	<ul data-role="listview">
+
+                		<li>
+                			<h3>O</h3>
+                			<p>Show/Hide Overlay</p>
+                		</li>
+
+                        <li>
+                            <h3>Shift + O</h3>
+                            <p>Cycle Overlay Color</p>
+                        </li>
+                        <li>
+                            <h3>/</h3>
+                            <p>Switch Brush A/B</p>
+                        </li>
+                        <li>
+                            <h3>Alt (held down)</h3>
+                            <p>Temporary Eraser</p>
+                        </li>
+                        <li>
+                            <h3>]</h3>
+                            <p>Increase Brush size</p>
+                        </li>
+                        <li>
+                            <h3>[</h3>
+                            <p>Decrease Brush size</p>
+                        </li>
+                        <li>
+                            <h3>Shift + ]</h3>
+                            <p>Increase Brush feathering</p>
+                        </li>
+                        <li>
+                            <h3>Shift + [</h3>
+                            <p>Decrease Brush feathering</p>
+                        </li>
+                        <li>
+                            <h3>0-9</h3>
+                            <p>Set Flow value</p>
+                        </li>
+                        <li>
+                            <h3>Shift drag</h3>
+                            <p>Constrain Brush to straight line</p>
+                        </li>
+                        <li>
+                            <h3>'</h3>
+                            <p>Invert Gradient</p>
+                        </li>
+                		<li>
+                			<h3>H</h3>
+                			<p>Show/Hide Pins</p>
+                		</li>
+                        <li>
+                            <h3>Enter</h3>
+                            <p>Confirm Brush stroke</p>
+                        </li>
+                	</ul>
+              </div>
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Cropping Tool Shortcuts</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Ctrl + Alt + R</h3>
+                            <p>Reset Crop</p>
+                        </li>
+                        <li>
+                            <h3>A</h3>
+                            <p>Constrain Aspect Ratio</p>
+                        </li>
+                        <li>
+                            <h3>Shift + A</h3>
+                            <p>Crop to Same Aspect Ratio</p>
+                        </li>
+                        <li>
+                            <h3>X</h3>
+                            <p>Rotate Crop Aspect</p>
+                        </li>
+                        <li>
+                            <h3>Alt drag</h3>
+                            <p>Crop from Center of Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Click on start and end points</h3>
+                            <p>Rotation Angle Ruler</p>
+                        </li>
+                        <li>
+                            <h3>O</h3>
+                            <p>Cycle Grid Overlay</p>
+                        </li>
+                        <li>
+                            <h3>Shift + O</h3>
+                            <p>Cycle Grid Overlay Orientation</p>
+                        </li>
+                    </ul>
+              </div>             
+
+
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Target Adjustment Tool</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Ctrl + Alt + Shift + N</h3>
+                            <p>Deselect TAT</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + T</h3>
+                            <p>Tone Curve</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + H</h3>
+                            <p>Hue</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + S</h3>
+                            <p>Saturation</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + L</h3>
+                            <p>Luminance</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + G</h3>
+                            <p>Black & White Mix</p>
+                        </li>
+                    </ul>
+              </div>                                                     
+              
+              <div data-role="collapsible" data-theme="c" data-content-theme="a" >
+                <h3>Navigation Shortcuts</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <h3>Ctrl + Left Arrow</h3>
+                            <p>Previous Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Right Arrow</h3>
+                            <p>Next Photo</p>
+                        </li>
+                    </ul>   
+              </div>
+              
+          </div>
+          	
+                    
+	</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.mayowa.shortcuts.lightroom"
+	version 	= "1.0.4">
+
+	<name>Shortcuts+ Lightroom</name>
+
+	<description>
+		Improve your creative workflow in Adobe Lightroom with this simple and beautiful app.
+	</description>
+
+	<author href="http://shortcuts.wanderasinc.com/"
+		email="mayowa@wanderasinc.com">
+		Mayowa Ojo
+	</author>
+
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value="true" />
+	<preference name="permissions" value="none"/>
+</widget>

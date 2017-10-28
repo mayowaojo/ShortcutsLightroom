@@ -1,0 +1,1445 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shortcut+ Lightroom</title>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile.min.js" type="text/javascript"></script>
+
+</head> 
+<body>
+
+    
+    <div data-role="page" id="search" data-theme="a">
+	<div data-role="header" data-theme="a">
+      <a href="index.html#home" data-icon="my-home" data-iconpos="notext"  data-transition="fade" data-direction="reverse" class="ui-btn-right">Home</a>                                   
+      <h1>Shortcuts+ <span>Lightroom</span></h1>
+  
+	</div>
+	   <div data-role="content">         
+
+
+            <ul data-role="listview" data-filter="true" >
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>File Shortcuts</h3></li>
+                        <li>
+                            <h3>Ctrl + O</h3>
+                            <p>Open Catalog</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + I</h3>
+                            <p>Import Photos and Videos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + T</h3>
+                            <p>Hide/Show Tethered Capture Window</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + T</h3>
+                            <p>New Shot</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + O</h3>
+                            <p>Show Layout Overlay</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + O</h3>
+                            <p>Choose Layout Overlay Image</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl (held down)</h3>
+                            <p>Options</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + E</h3>
+                            <p>Export</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + E</h3>
+                            <p>Export with Preset</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + M</h3>
+                            <p>Email Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + ,</h3>
+                            <p>Plug-in Manager</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + B</h3>
+                            <p>Show Quick Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + B</h3>
+                            <p>Clear Quick Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + L</h3>
+                            <p>Enable Filters</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + P</h3>
+                            <p>Print</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + P</h3>
+                            <p>Page Setup</p>
+                        </li>
+                            <li>
+                                <h3>Ctrl + ,</h3>
+                                <p>Preferences</p>
+                            </li>
+                            <li>
+                                <h3>Ctrl + Alt + ,</h3>
+                                <p>Catalog Settings</p>
+                            </li>                        
+                            <li>
+                            <h3>Ctrl + Q</h3>
+                            <p>Exit</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>View Shortcuts</h3></li>
+                     <li>
+                        <h3>Enter</h3>
+                        <p>Enter Loupe or 1:1 view</p>
+                     </li>
+                        <li>
+                            <h3>Ctrl + Enter</h3>
+                            <p>Enter Impromptu Slideshow</p>
+                        </li>                     <li>
+                        <h3>F</h3>
+                        <p>Cycle to next Screen Mode</p>
+                     </li>
+                     <li>
+                        <h3>Ctrl + Alt + F</h3>
+                        <p>Return to Normal Screen Mode</p>
+                     </li>
+                     <li>
+                         <h3>Ctrl + Shift + F</h3>
+                         <p>Full Screen Mode</p>
+                     </li>
+                     <li>
+                        <h3>L</h3>
+                        <p>Cycle through Lights Out modes</p>
+                     </li>
+                     <li>
+                         <h3>Ctrl + Shift + L</h3>
+                         <p>Lights Dim</p>
+                     </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Workspace Shortcuts</h3></li>
+                        <li>
+                            <h3>T</h3>
+                            <p>Hide/Show toolbar</p>
+                        </li>
+                        <li>
+                            <h3>\</h3>
+                            <p>Show/Hide Header Bar</p>
+                        </li>
+                    <li>
+                        <h3>Esc</h3>
+                        <p>Return to previous view</p>
+                     </li>
+                        <li>
+                            <h3>G</h3>
+                            <p>Grid</p>
+                        </li>
+                        <li>
+                            <h3>=</h3>
+                            <p>Increase Grid Size</p>
+                        </li>
+                        <li>
+                            <h3>-</h3>
+                            <p>Decrease Grid Size</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + H</h3>
+                            <p>Show/Hide Extras</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + H</h3>
+                            <p>Show/Hide Badges</p>
+                        </li>
+                        <li>
+                            <h3>J</h3>
+                            <p>Cycle Grid Size</p>
+                        </li>
+                        <li>
+                            <h3>E</h3>
+                            <p>Loupe</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + I</h3>
+                            <p>Show Info Overlay</p>
+                        </li>
+                        <li>
+                            <h3>I</h3>
+                            <p>Cycle Info Overlay</p>
+                        </li>
+                        <li>
+                            <h3>C</h3>
+                            <p>Compare</p>
+                        </li>
+                        <li>
+                            <h3>Down Arrow</h3>
+                            <p>Switch Select and Candidate</p>
+                        </li>
+                        <li>
+                            <h3>Up Arrow</h3>
+                            <p>Make next photo Select and Candidate</p>
+                        </li>
+                        <li>
+                            <h3>\</h3>
+                            <p>Swap active photo</p>
+                        </li>
+                        <li>
+                            <h3>N</h3>
+                            <p>Survey</p>
+                        </li>
+                        <li>
+                            <h3>T</h3>
+                            <p>Show/Hide Toolbar</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Module Navigation</h3></li>
+                        <li>
+                            <h3>Ctrl + Alt + 1</h3>
+                            <p>Library Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + 2</h3>
+                            <p>Develop Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + 3</h3>
+                            <p>Map Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + 4</h3>
+                            <p>Book Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + 5</h3>
+                            <p>Print Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + 6</h3>
+                            <p>Web Module</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Left Arrow</h3>
+                            <p>Go Back</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Right Arrow</h3>
+                            <p>Go Forward</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Up Arrow</h3>
+                            <p>Go Back to Previous Module</p>
+                        </li>
+
+               <li data-role="list-divider" class="ui-btn-up-c"><h3>Selection</h3></li>
+                        <li>
+                            <h3>Ctrl + A</h3>
+                            <p>Select All</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + D (or Ctrl + Shift + A)</h3>
+                            <p>Deselect Active Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + D</h3>
+                            <p>Select Only Active Photo</p>
+                        </li>
+                        <li>
+                            <h3>/</h3>
+                            <p>Deselect Active Photo</p>
+                        </li>
+                        <li>
+                            <h3>Shift + Click on Photos</h3>
+                            <p>Select Multiple Contiguous Photos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Click on Photos</h3>
+                            <p>Select Multiple Photos</p>
+                        </li>
+                        <li>
+                            <h3>Shift + Left/Right Arrow</h3>
+                            <p>Add previous/next Photo to Selection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + A</h3>
+                            <p>Select Fagged Photos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + D</h3>
+                            <p>Deselect Unflagged Photos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Click on Symbol in Filter Bar</h3>
+                            <p>Select Rated/Labeled Photos</p>
+                        </li>
+                
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Zoom</h3></li>
+                        <li>
+                            <h3>Z</h3>
+                            <p>Toggle Zoom View</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + =</h3>
+                            <p>Zoom In</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + =</h3>
+                            <p>Slight Zoom In</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + -</h3>
+                            <p>Zoom Out</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + -</h3>
+                            <p>Slight Zoom Out</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Panel</h3></li>
+                        <li>
+                            <h3>Ctrl + Shift + 0-9</h3>
+                            <p>Expand/Collapse Left Panels</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 0-9</h3>
+                            <p>Expand/Collapse Right Panels</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Click on Panel Header</h3>
+                            <p>Open/Close All Panels</p>
+                        </li>
+                        <li>
+                            <h3>Alt + Click on Panel Header</h3>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3>Shift + Click on Panel Header</h3>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3>Tab</h3>
+                            <p>Show/Hide Side Panels</p>
+                        </li>
+                        <li>
+                            <h3>Shift Tab</h3>
+                            <p>Show/Hide All Panels</p>
+                        </li>
+                        <li>
+                            <h3>F5</h3>
+                            <p>Show/Hide Module Picker</p>
+                        </li>
+                        <li>
+                            <h3>F6</h3>
+                            <p>Show/Hide Filmstrip</p>
+                        </li>
+                        <li>
+                            <h3>F7</h3>
+                            <p>Show Left Panels</p>
+                        </li>
+                        <li>
+                            <h3>F8</h3>
+                            <p>Show Right Panels</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Secondary Display</h3></li>
+                        <li>
+                            <h3>F11</h3>
+                            <p>Show Secondary Display</p>
+                        </li>
+                        <li>
+                            <h3>Shift F11</h3>
+                            <p>Full Screen</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + F11</h3>
+                            <p>Show Second Monitor</p>
+                        </li>
+                        <li>
+                            <h3>Shift + G</h3>
+                            <p>Grid</p>
+                        </li>
+                        <li>
+                            <h3>Shift + E</h3>
+                            <p>Loupe (Normal)</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + Enter</h3>
+                            <p>Loupe (Locked)</p>
+                        </li>
+                        <li>
+                            <h3>Shift + C</h3>
+                            <p>Compare</p>
+                        </li>
+                        <li>
+                            <h3>Shift + N</h3>
+                            <p>Survey</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Enter</h3>
+                            <p>Slideshow</p>
+                        </li>
+                        <li>
+                            <h3>Shift + \</h3>
+                            <p>Show Filter View</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + =</h3>
+                            <p>Zoom In</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + =</h3>
+                            <p>Slight Zoom In</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + -</h3>
+                            <p>Zoom Out</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + -</h3>
+                            <p>Slight Zoom Out</p>
+                        </li>
+                        <li>
+                            <h3>Shift =</h3>
+                            <p>Increase Thumbnail Size</p>
+                        </li>
+                        <li>
+                            <h3>Shift -</h3>
+                            <p>Decrease Thumbnail Size</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Help Shortcuts</h3></li>
+                        <li>
+                            <h3>F1</h3>
+                            <p>Lightroom Help</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + /</h3>
+                            <p>Module Help</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + /</h3>
+                            <p>Module Shortcuts</p>
+                        </li>
+
+            <li data-role="list-divider" class="ui-btn-up-c"><h3>Library Shortcuts</h3></li>
+                        <li>
+                            <h3>Ctrl + Z</h3>
+                            <p>Undo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Y</h3>
+                            <p>Redo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + K</h3>
+                            <p>Enable Painting</p>
+                        </li>
+                        <li>
+                            <h3>F2</h3>
+                            <p>Rename Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + [</h3>
+                            <p>Rotate left</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + ]</h3>
+                            <p>Rotate right</p>
+                        </li>
+                        <li>
+                            <h3>Backspace</h3>
+                            <p>Remove from Library</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Left Arrow</h3>
+                            <p>Previous selected photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Right Arrow</h3>
+                            <p>Next selected photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + L</h3>
+                            <p>Enable/Disable Library Filters</p>
+                        </li>
+                        <li>
+                            <h3>\</h3>
+                            <p>Show Filter Bar</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + R</h3>
+                            <p>Refine Photos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + F</h3>
+                            <p>Select Text Filter</p>
+                        </li>
+                        <li>
+                            <h3> + at the beginning of word</h3>
+                            <p>Starts with Text Filter</p>
+                        </li>
+                        <li>
+                            <h3> + at the end of word</h3>
+                            <p>Ends with Text Filter</p>
+                        </li>                    
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Rating Shortcuts</h3></li>
+                        <li>
+                            <h3>1-5</h3>
+                            <p>Set ratings</p>
+                        </li>
+                        <li>
+                            <h3>Shift 1-5 (or Caps Lock)</h3>
+                            <p>Set ratings and move to next photo</p>
+                        </li>
+                        <li>
+                            <h3>6-9</h3>
+                            <p>Set color labels</p>
+                        </li>
+                        <li>
+                            <h3>Shift 6-9 (or Caps Lock)</h3>
+                            <p>Set color labels and move to next photo</p>
+                        </li>
+                        <li>
+                            <h3>0</h3>
+                            <p>Reset rating to none</p>
+                        </li>
+                        <li>
+                            <h3>[</h3>
+                            <p>Decrease the rating</p>
+                        </li>
+                        <li>
+                            <h3>]</h3>
+                            <p>Increase the rating</p>
+                        </li>
+            
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Flagging Shortcuts</<h3></li>
+
+                        <li>
+                            <h3>P</h3>
+                            <p>Set Pick Flag</p>
+                        </li>
+                        <li>
+                            <h3>U</h3>
+                            <p>Set as Unflagged</p>
+                        </li>
+                        <li>
+                            <h3>X</h3>
+                            <p>Set Reject Flag</p>
+                        </li>
+                        <li>
+                            <h3>`</h3>
+                            <p>Toggle Flagged Status</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Up Arrow</h3>
+                            <p>Increase Flag Status</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Down Arrow</h3>
+                            <p>Decrease Flag Status</p>
+                        </li>
+                        <li>
+                            <h3>Shift + P (or Caps Lock)</h3>
+                            <p>Set as Flagged and advance to next photo</p>
+                        </li>
+                        <li>
+                            <h3>Shift + X (or Caps Lock)</h3>
+                            <p>Set as Unflagged and advance to next photo</p>
+                        </li>
+                        <li>
+                            <h3>Shift + U (or Caps Lock)</h3>
+                            <p>Set as Rejected and advance to next photo</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Target Collection Shortcuts</h3></li>
+
+                        <li>
+                            <h3>B</h3>
+                            <p>Add to Target Collection</p>
+                        </li>
+                        <li>
+                            <h3>Shift + B</h3>
+                            <p>Add to Target Collection and move to next photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + B</h3>
+                            <p>Show Target Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + B</h3>
+                            <p>Save Quick Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + B</h3>
+                            <p>Clear Quick Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + B</h3>
+                            <p>Set Collection as Target</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Folders/Collections</h3></li>
+
+                        <li>
+                            <h3>Ctrl + Shift + N</h3>
+                            <p>New Collection</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + N</h3>
+                            <p>New Folder</p>
+                        </li>
+                        <li>
+                            <h3>Alt + Click on folder disclosure triangle</h3>
+                        </li>
+                        <li>
+                            <h3>Ctrl + R</h3>
+                            <p>Show in Explorer</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Stacking</h3></li>
+
+                        <li>
+                            <h3>Ctrl + G</h3>
+                            <p>Stack photos</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + G</h3>
+                            <p>Unstack photos</p>
+                        </li>
+                        <li>
+                            <h3>S</h3>
+                            <p>Collapse/Expand Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + S</h3>
+                            <p>Move to Top of Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + [</h3>
+                            <p>Move Up in Stack</p>
+                        </li>
+                        <li>
+                            <h3>Shift + ]</h3>
+                            <p>Move Down in Stack</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Metadata</<h3></li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + C</h3>
+                            <p>Copy Metadata</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + V</h3>
+                            <p>Paste Metadata</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + A</h3>
+                            <p>Enable Metadata Auto Sync</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + S</h3>
+                            <p>Save Metadata to File</p>
+                        </li>                      
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Keywording</h3></li>
+                        <li>
+                            <h3>Ctrl + K</h3>
+                            <p>Go to Add Keywords</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + K</h3>
+                            <p>Change Keywords</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + K</h3>
+                            <p>Set Keyword Shortcut</p>
+                        </li>
+                        <li>
+                            <h3>Shift + K</h3>
+                            <p>Toggle Keyword Shortcut</p>
+                        </li>
+                        <li>
+                            <h3>Alt + O</h3>
+                            <p>Next Keyword</p>
+                        </li>
+                        <li>
+                            <h3>Alt + Shift + O</h3>
+                            <p>Previous Keyword Set</p>
+                        </li>
+                        <li>
+                            <h3>Alt + (Number Pad 1-9)</h3>
+                            <p>Apply Keyword</p>
+                        </li>
+              
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Edit Shortcuts</h3></li>
+
+                        <li>
+                            <h3>Ctrl + U</h3>
+                            <p>Auto Tone</p>
+                        </li>
+                        <li>
+                            <h3>V</h3>
+                            <p>Convert to Black and White</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift U</h3>
+                            <p>Auto White Balance</p>
+                        </li>
+                        <li>
+                            <h3>J</h3>
+                            <p>Show/Hide Clipping</p>
+                        </li>
+                        <li>
+                            <h3>S</h3>
+                            <p>Show/Hide Soft Proof</p>
+                        </li>
+                        <li>
+                            <h3>Shift + S</h3>
+                            <p>Destination Gamut Warning</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + N</h3>
+                            <p>New Snapshot</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + R</h3>
+                            <p>Reset All Settings</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + '</h3>
+                            <p>Create Virtual Copy</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + N</h3>
+                            <p>New Preset</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt+ N</h3>
+                            <p>New Preset Folder</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + E</h3>
+                            <p>Edit in Photoshop</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + E</h3>
+                            <p>Edit in Other Application</p>
+                        </li>                       
+
+
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Copy Paste Sync</h3></li>
+
+                        <li>
+                            <h3>Ctrl + Shift + C</h3>
+                            <p>Copy Develop Settings</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + V</h3>
+                            <p>Paste Develop Settings</p>
+                        </li>                    
+                        <li>
+                            <h3>Ctrl + Alt + V</h3>
+                            <p>Paste Settings from Previous</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Shift + S</h3>
+                            <p>Sync Settings</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + S</h3>
+                            <p>Sync Settings - no dialog</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + A</h3>
+                            <p>Enable Develop Auto Sync</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + M</h3>
+                            <p>Match Total Exposures</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Before/After Previews</h3></li>
+
+                        <li>
+                            <h3>\</h3>
+                            <p>Toggle Before/After</p>
+                        </li>
+                        <li>
+                            <h3>Y</h3>
+                            <p>Left/Right</p>
+                        </li>
+                        <li>
+                            <h3>Alt + Y</h3>
+                            <p>Top/Bottom</p>
+                        </li>
+                        <li>
+                            <h3>Shift + Y</h3>
+                            <p>Split Screen</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Left Arrow</h3>
+                            <p>Copy After's Settings to Before</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Right Arrow</h3>
+                            <p>Copy Before's Settings to After</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + Up Arrow</h3>
+                            <p>Swap Before and After Settings</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Sliders</h3></li>
+
+                        <li>
+                            <h3>.</h3>
+                            <p>Select next Basic panel slider</p>
+                        </li>
+                        <li>
+                            <h3>,</h3>
+                            <p>Select previous Basic panel slider</p>
+                        </li>
+                        <li>
+                            <h3>=</h3>
+                            <p>Increase slider value</p>
+                        </li>
+                        <li>
+                            <h3>-</h3>
+                            <p>Decrease slider value</p>
+                        </li>
+                        <li>
+                            <h3>Shift + =</h3>
+                            <p>Increase slider value by larger increment</p>
+                        </li>
+                        <li>
+                            <h3>Shift + -</h3>
+                            <p>Decrease slider value by smaller increment</p>
+                        </li>
+                        <li>
+                            <h3>Double-click on slider label</h3>
+                            <p>Reset Slider</p>
+                        </li>
+                        <li>
+                            <h3>Double-click on group name</h3>
+                            <p>Reset slider group</p>
+                        </li>
+
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Mode Shortcuts</h3></li>
+
+                        <li>
+                            <h3>R</h3>
+                            <p>Enter Crop Mode</p>
+                        </li>
+                        <li>
+                            <h3>Q</h3>
+                            <p>Enter Sport Removal Mode</p>
+                        </li>
+                        <li>
+                            <h3>M</h3>
+                            <p>Enter Gradual Filter Mode</p>
+                        </li>
+                        <li>
+                            <h3>K</h3>
+                            <p>Enter Adjustment Brush Mode</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Tool Shortcuts</h3></li>
+
+
+                        <li>
+                            <h3>O</h3>
+                            <p>Show/Hide Overlay</p>
+                        </li>
+
+                        <li>
+                            <h3>Shift + O</h3>
+                            <p>Cycle Overlay Color</p>
+                        </li>
+                        <li>
+                            <h3>/</h3>
+                            <p>Switch Brush A/B</p>
+                        </li>
+                        <li>
+                            <h3>Alt (held down)</h3>
+                            <p>Temporary Eraser</p>
+                        </li>
+                        <li>
+                            <h3>]</h3>
+                            <p>Increase Brush size</p>
+                        </li>
+                        <li>
+                            <h3>[</h3>
+                            <p>Decrease Brush size</p>
+                        </li>
+                        <li>
+                            <h3>Shift + ]</h3>
+                            <p>Increase Brush feathering</p>
+                        </li>
+                        <li>
+                            <h3>Shift + [</h3>
+                            <p>Decrease Brush feathering</p>
+                        </li>
+                        <li>
+                            <h3>0-9</h3>
+                            <p>Set Flow value</p>
+                        </li>
+                        <li>
+                            <h3>Shift drag</h3>
+                            <p>Constrain Brush to straight line</p>
+                        </li>
+                        <li>
+                            <h3>'</h3>
+                            <p>Invert Gradient</p>
+                        </li>
+                        <li>
+                            <h3>H</h3>
+                            <p>Show/Hide Pins</p>
+                        </li>
+                        <li>
+                            <h3>Enter</h3>
+                            <p>Confirm Brush stroke</p>
+                        </li>
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Cropping Tool Shortcuts</h3></li>
+
+                        <li>
+                            <h3>Ctrl + Alt + R</h3>
+                            <p>Reset Crop</p>
+                        </li>
+                        <li>
+                            <h3>A</h3>
+                            <p>Constrain Aspect Ratio</p>
+                        </li>
+                        <li>
+                            <h3>Shift + A</h3>
+                            <p>Crop to Same Aspect Ratio</p>
+                        </li>
+                        <li>
+                            <h3>X</h3>
+                            <p>Rotate Crop Aspect</p>
+                        </li>
+                        <li>
+                            <h3>Alt drag</h3>
+                            <p>Crop from Center of Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Click on start and end points</h3>
+                            <p>Rotation Angle Ruler</p>
+                        </li>
+                        <li>
+                            <h3>O</h3>
+                            <p>Cycle Grid Overlay</p>
+                        </li>
+                        <li>
+                            <h3>Shift + O</h3>
+                            <p>Cycle Grid Overlay Orientation</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Target Adjustment Tool</h3></li>
+
+                        <li>
+                            <h3>Ctrl + Alt + Shift + N</h3>
+                            <p>Deselect TAT</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + T</h3>
+                            <p>Tone Curve</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + H</h3>
+                            <p>Hue</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + S</h3>
+                            <p>Saturation</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + L</h3>
+                            <p>Luminance</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Alt + Shift + G</h3>
+                            <p>Black & White Mix</p>
+                        </li>
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Navigation Shortcuts</h3></li>
+
+                        <li>
+                            <h3>Ctrl + Left Arrow</h3>
+                            <p>Previous Photo</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Right Arrow</h3>
+                            <p>Next Photo</p>
+                        </li>
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Map Shortcuts</h3></li>
+                        <li>
+                          <h3>Ctrl + Left Arrow</h3>
+                          <p>Previous Photo</p>
+                        </li>
+                        <li>
+                          <h3>Ctrl + Right Arrow</h3>
+                          <p>Next Photo</p>
+                        </li>
+                        <li>
+                            <h3>Backspace</h3>
+                            <p>Delete GPS Coordinates</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Backspace</h3>
+                            <p>Delete All Location Metadata</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + K</h3>
+                            <p>Lock Markers</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + F</h3>
+                            <p>Search</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Right Arrow</h3>
+                            <p>Previous Tracklog</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + Left Arrow</h3>
+                            <p>Next Tracklog</p>
+                        </li> 
+
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Map Style Shortcuts</h3></li>
+
+                        <li>
+                            <h3>Ctrl + 1</h3>
+                            <p>Hybrid</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 2</h3>
+                            <p>Road Map</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 3</h3>
+                            <p>Satellite</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 4</h3>
+                            <p>Terrain</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 5</h3>
+                            <p>Light</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + 6</h3>
+                            <p>Dark</p>
+                        </li>
+
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Map View Shortcuts</h3></li>
+
+                  <li>
+                    <h3>I</h3>
+                    <p>Hide/Show Map Info</p>
+                  </li>
+                  <li>
+                    <h3>O</h3>
+                    <p>Hide/Show Saved Location Overlay</p>
+                  </li>
+                  <li>
+                    <h3>\</h3>
+                    <p>Hide/Show Filter Bar</p>
+                  </li>
+                  <li>
+                    <h3>T</h3>
+                    <p>Hide/Show Toolbar</p>
+                  </li>
+                  <li>
+                    <h3>-</h3>
+                    <p>Zoom out</p>
+                  </li>
+                  <li>
+                    <h3>=</h3>
+                    <p>Zoom in</p>
+                  </li>
+                  <li>
+                    <h3>Alt (held down)</h3>
+                    <p>Drag zoom</p>
+                  </li>
+
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Book Shortcuts</h3></li>
+
+                  <li>
+                    <h3>Ctrl + Alt + A</h3>
+                    <p>Select All Text Cells</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Alt + Shift + A</h3>
+                    <p>Select All Photo Cells</p>
+                  </li>
+                  <li>
+                    <h3>Shift Click</h3>
+                    <p>Select Multiple Cells</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Shift + C</h3>
+                    <p>Copy Layout</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Shift + V</h3>
+                    <p>Paste Layout</p>
+                  </li>
+                  <li>
+                    <h3>Backspace</h3>
+                    <p>Remove Photo from Page</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Shift + Backspace</h3>
+                    <p>Remove Page</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + S</h3>
+                    <p>Create Saved Book</p>
+                  </li>
+                    <li>
+                        <h3>Ctrl + Shift + Left Arrow</h3>
+                        <p>Go to first page</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Left Arrow</h3>
+                        <p>Go to first page</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + Right Arrow</h3>
+                        <p>Go to last page</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Right Arrow</h3>
+                        <p>Go to next page</p>
+                    </li>
+
+
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Book View Shortcuts</h3></li>
+
+                  <li>
+                    <h3>Ctrl + E</h3>
+                    <p>Multi-page view</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + R</h3>
+                    <p>Spread view</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + T</h3>
+                    <p>Single page view</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + U</h3>
+                    <p>Zoomed page view</p>
+                  </li>  
+                  <li>
+                    <h3>Ctrl + =</h3>
+                    <p>Next View Mode</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + -</h3>
+                    <p>Previous View Mode</p>
+                  </li>
+                  <li>
+                    <h3>=</h3>
+                    <p>Increase Grid Size</p>
+                  </li>
+                  <li>
+                    <h3>-</h3>
+                    <p>Decrease Grid Size</p>
+                  </li>
+                  <li>
+                    <h3>\</h3>
+                    <p>Show/Hide Header Bar</p>
+                  </li>
+                  <li>
+                    <h3>I</h3>
+                    <p>Show/Hide Info Overlay</p>
+                  </li>
+                  <li>
+                        <h3>Ctrl + Shift + G</h3>
+                        <p>Show Guides</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + H</h3>
+                        <p>Show Filler Text</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + K</h3>
+                        <p>Show Photo Cells</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + J</h3>
+                        <p>Show Page Bleed</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + U</h3>
+                        <p>Show Text Safe Area</p>
+                    </li>
+
+
+
+            <li data-role="list-divider" class="ui-btn-up-c"><h3>Text Target Adjustment Tool</h3></li>
+
+                  <li>
+                    <h3>Drag Horizontally</h3>
+                    <p>Text Size</p>
+                  </li>
+                  <li>
+                    <h3>Drag Vertically</h3>
+                    <p>Leading/Line Height</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Drag Horizontally</h3>
+                    <p>Tracking</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Drag Vertically</h3>
+                    <p>Baseline Shift</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Drag Horizontally over cursor point</h3>
+                    <p>Kerning</p>
+                  </li>
+                  <li>
+                    <h3>Alt (held down)</h3>
+                    <p>Deactivate TAT tool</p>
+                  </li>
+                  <li>
+                    <h3>Esc</h3>
+                    <p>Exit TAT tool</p>
+                  </li>
+
+
+              <li data-role="list-divider" class="ui-btn-up-c"><h3>Slideshow Shortcuts</h3></li>
+
+                    <li>
+                        <h3>Enter</h3>
+                        <p>Play Slideshow</p>
+                    </li>
+                  <li>
+                    <h3>Ctrl + Enter</h3>
+                    <p>Impromptu Slideshow</p>
+                  </li>
+                    <li>
+                        <h3>Alt + Enter</h3>
+                        <p>Previous Slideshow</p>
+                    </li>
+                    <li>
+                        <h3>Space</h3>
+                        <p>Pause Slideshow</p>
+                    </li>
+                    <li>
+                        <h3>Esc</h3>
+                        <p>End Slideshow</p>
+                    </li>
+                  <li>
+                    <h3>Ctrl + N</h3>
+                    <p>New Template </p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Shift + N</h3>
+                    <p>New Template Folder</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + S</h3>
+                    <p>Create Saved Slideshow</p>
+                  </li>
+                  <li>
+                    <h3>Right Arrow</h3>
+                    <p>Go to  Next Slide</p>
+                  </li>
+                  <li>
+                    <h3>Left Arrow</h3>
+                    <p>Go to  Previous Slide</p>
+                  </li>
+                  <li>
+                    <h3>\</h3>
+                    <p>Show/Hide Header Bar</p>
+                  </li>
+                  <li>
+                    <h3>Ctrl + Shift + H</h3>
+                    <p>Show/Hide Guides</p>
+                  </li>
+                    <li>
+                        <h3>Ctrl + J</h3>
+                        <p>Export PDF Slideshow</p>
+                    </li>
+                    <li>
+                        <h3>Ctrl + Shift + J</h3>
+                        <p>Export JPEG Slideshow</p>
+                    </li>
+                    <li>
+                      <h3>Ctrl + Alt + J</h3>
+                      <p>Export Video Slideshow</p>
+                    </li>
+
+
+                  <li data-role="list-divider" class="ui-btn-up-c"><h3>Printing Shortcuts</h3></li>
+
+                      <li>
+                        <h3>Ctrl + N</h3>
+                        <p>New Template</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + N</h3>
+                        <p>New Template Folder</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + S</h3>
+                        <p>Create Saved Print</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + Left Arrow</h3>
+                        <p>Go to First Page</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Left Arrow</h3>
+                        <p>Go to Previous Page</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Right Arrow</h3>
+                        <p>Go to Next Page</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + Right Arrow</h3>
+                        <p>Go to Last Page</p>
+                      </li>
+                     <li>
+                        <h3>Ctrl + Shift + P</h3>
+                        <p>Page Setup</p>
+                      </li>                       
+                      <li>
+                          <h3>Ctrl + Alt + Shift + P</h3>
+                          <p></p>
+                        </li> 
+                      <li>
+                            <h3>Ctrl + P</h3>
+                            <p>Print</p>
+                        </li>
+                        <li>
+                            <h3>Ctrl + ALt + P</h3>
+                            <p>Print One Copy</p>
+                        </li>
+
+
+
+                <li data-role="list-divider" class="ui-btn-up-c"><h3>Print View Shortcuts</h3></li>
+
+                      <li>
+                        <h3>\</h3>
+                        <p>Show Header Bar</p>
+                      </li>
+                      <li>
+                        <h3>Show/Hide Guides</h3>
+                        <p>Ctrl + Shift + G</p>
+                      </li>
+
+
+                      <li>
+                        <h3>Ctrl + Shift + J</h3>
+                        <p>Show/Hide Page Bleed</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + H</h3>
+                        <p>Show/Hide Margin and Gutters</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + K</h3>
+                        <p>Show/Hide Image Cells</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + U</h3>
+                        <p>Show/Hide Dimensions</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + R</h3>
+                        <p>Show/Hide Rulers</p>
+                      </li>
+
+                  <li data-role="list-divider" class="ui-btn-up-c"><h3>Web Shortcuts</h3></li>
+
+                      <li>
+                        <h3>Ctrl + N</h3>
+                        <p>New Template</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Shift + N</h3>
+                        <p>New Template Folder</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + S</h3>
+                        <p>Create Saved Web Gallery</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + R</h3>
+                        <p>Reload Web Gallery</p>
+                      </li>
+                       <li>
+                        <h3>Ctrl + Alt + Shift + /</h3>
+                        <p>Use Advance Settings</p>
+                      </li>
+                      <li>
+                        <h3>Ctrl + Alt + P</h3>
+                        <p>Preview in Browser</p>
+                      </li>
+
+                        <li>
+                            <h3>Ctrl + J</h3>
+                            <p>Export Web Gallery</p>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+  
+	</div>    
+</div> 
+</body>
+
+</html>
