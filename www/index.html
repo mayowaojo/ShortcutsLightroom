@@ -3,16 +3,22 @@
 <head>
 <meta charset="utf-8">
 <title>Shortcut+ Lightroom</title>
-<link href="../css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
-<link href="../css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
-<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
 
-<script src="../js/jquery.min.js" type="text/javascript"></script>
-<script src="../js/jquery.mobile.min.js" type="text/javascript"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile.min.js" type="text/javascript"></script>
+<script src="js/app.js" type="text/javascript"></script>
 
 </head> 
 <body>
-   
+    <div data-role="page" id="splash" data-theme="a"> 
+        <div class="splash">
+            <a href="#home" data-transition="fade"><img id="splashscreen" src="images/splashscreen.png" alt="startup image" /></a>
+        </div>
+    </div>
+    
     
     <div data-role="page" id="home" data-theme="a" data-transition="fade">
 	<div data-role="header" data-theme="a">
@@ -28,6 +34,22 @@
 	<div data-role="content">
     
          <div class="content-primary-home">
+
+            <a class="new-app" href="https://play.google.com/store/apps/details?id=com.shortcutsplus.app">
+            <img src="images/shortcuts+icon.png" alt="Shoctcuts+ Icon" />
+
+            <div>
+            <h3>New app now available</h3>
+            <p>Thanks for your interest in Shortcuts+ Lightroom. I've overhauled the app with new intervface and features. This version will no longer be supported.
+
+            </p>
+
+            <span>Download the new App</span>
+            </div>
+
+        </a>
+
+
      
               <ul data-role="listview" >
 
@@ -94,8 +116,8 @@
     <div data-role="footer" data-position="fixed">        
     <div data-role="navbar">
         <ul>
-            <li data-theme="b"><a href="index.html#home" data-transition="slide" data-direction="reverse" ><h4>Windows</h4></a></li>
-            <li data-theme="a"><a href="mac/index.html" class="ui-btn-active active-nav" ><h4>Mac</h4></a></li>
+            <li data-theme="b"><a class="ui-btn-active active-nav" href="index.html#home"><h4>Windows</h4></a></li>
+            <li data-theme="a"><a href="mac/index.html" data-transition="slide"><h4>Mac</h4></a></li>
         </ul>
     </div><!-- /navbar -->
 </div><!-- /footer -->
